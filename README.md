@@ -6,4 +6,4 @@ An implementation of Physics-Informed Neural Networks (PINNs) to solve various f
 <img src="https://github.com/DCN-FAU-AvH/PINNs_wave_equation/blob/main/Icon.png" width="70%" height="70%" >
 </p>
 
-[degenerate_wave.m]() solves a wave equation in which the stiffness is $a(x) = 4(2|x-\frac{1}{2}|)^\alpha$ by finite differences. (used for comparison)
+[degenerate_wave.m](https://github.com/DCN-FAU-AvH/PINNs_wave_equation/blob/main/degenerate_wave.m) solves a wave equation $u_{tt}(t,x) + a(x) u_{xx}(t,x) = 0$ on $x \in (0,1)$ in which the stiffness is $a(x) = 4(2|x-\frac{1}{2}|)^\alpha$ by finite differences. (used for comparison)
